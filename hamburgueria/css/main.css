@@ -1,0 +1,298 @@
+body{
+    font-family: 'Muli';
+    color: white;
+}
+
+header{
+   background: #EC7801;
+   
+}
+header a{
+    text-decoration: none; 
+    color: white;
+}
+
+.topo{
+    width: 940px;
+    height: 6em;
+    margin: 0 auto;
+    padding: 1vw 0 0 0;
+    background: #EC7801;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 25px;
+    width: 60px;
+}
+
+#titulo{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Trade Winds';
+    position: absolute;
+    top: 50px;
+    left: 80px;    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    float:right;
+ 
+
+}
+header nav ul{
+    display: flex;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 55px;
+
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: 1vh 0 1vh 1vw;
+    font-family: 'Trade Winds';
+
+}
+
+header li a:hover{
+    color: yellow;
+}
+
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+}
+
+main{
+    background: white;
+    color: black;
+}
+
+.banner{
+    text-align: center;
+}
+
+.tam-banner{
+    width: 940px;
+}
+
+main h1{
+    font-size: 2em;
+    padding: 2em;
+    font-family: 'Indie Flower', cursive;
+    text-align: center  ;
+}
+
+.img-sobre{
+    width: 200px;
+    float: left;
+}
+
+.txt-sobre p{
+    padding: 0.8vw;
+    margin-left: 220px;
+    font-size: 1.2em;
+    text-align: justify;
+ 
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+}
+
+.cardapio li {
+    margin-bottom: 3em;
+    text-align: center;
+    padding: 1em 1em;
+    border-style: solid;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 60px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+}
+
+.cardapio img {
+    width: 200px;
+    margin-bottom: 1em;
+}
+
+.cardapio button {
+    margin: 1.5em 0 0.5em 0;
+    background-color: #EC7801;
+    border: 0;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: 1.001em;
+}
+
+.cardapio a {
+    color: white;
+    text-decoration: none;
+}
+
+.cardapio a:hover {
+    text-decoration: underline;
+}
+
+footer{    
+    background: url(../img/bg.jpg);
+    text-align: center;
+    margin-top: 64em;
+    height: 4em;
+}
+
+.icone-rodape{
+    width: 40px;
+}
+
+footer p{
+    font-family: 'Trade Winds';
+    font-size: 13px;
+}
+
+h2{
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-family: 'Indie Flower', cursive;
+    margin: 1em 0 .5em 0;
+    border-bottom: 1px solid black;
+    color: black;
+    text-align: center;
+}
+
+.foto{
+    width: 300px;
+    float: right;
+    border-radius: 5px;
+}
+
+.hamb-cala{
+    padding: .5e .5em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+}
+
+.hamb-cala li{
+    margin: 2em 0;
+    padding-left: 20px;
+    color: black;
+    text-align: left;
+}
+
+.hamb-cala li::before{
+    content: "▸";
+}
+
+.info{
+    float: left
+}
+
+.formulario form{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    border-radius: 5px;
+    float: left;
+}
+
+.formulario form fieldset{
+    width: 482px;
+    margin: 2.5em 0;
+}
+
+.formulario form label{
+    display: block;
+    padding: 0.8em 0;
+}
+
+.formulario form .icone{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.formulario form fieldset legend{
+ 
+    padding-bottom: 10px;
+    margin-top: 200px;
+    font-weight: bold;
+
+}
+
+.formulario button{
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-size: 14px;
+    background: #EC7801;
+    padding: 0.5em;
+    border: none;
+    width: 250px;
+}
+
+.formulario form input{
+    margin-bottom: 1em;
+}
+
+.formulario form input.input-padrao{
+    padding: 0.2em 2em;
+    text-align: center;
+}
+
+.titulo-principal{
+    text-align: center;
+}
+
+/* calculadora */
+
+.destaque{
+    color: red;
+}
+
+.imc{
+    text-align: center;
+}
+
+.calculadora{
+    height: 15em;
+    width: 30em;
+    background: #D77617;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.calculadora label{
+    display: block;
+}
+
+.calculadora input{
+    display: inline-block;
+}
+
+.calculadora #botao{
+    display: block;    
+    margin: 20px auto;
+    background: white;
+    color: black;
+    border: none;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+}
