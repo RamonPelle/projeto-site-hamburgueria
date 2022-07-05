@@ -1,0 +1,137 @@
+* {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem auto;
+}
+
+form {
+    width: auto;
+    height: auto;
+    margin: 4rem auto;
+    padding: 5rem;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+label,
+legend {
+    display: block;
+    margin: .5rem 0;
+    font-size: 14px;
+}
+
+.input-padrao {
+    /* width: 300px; */
+    margin: .5rem 0;
+}
+
+button {
+    display: block;
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+}
+
+table {
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+}
+
+td,
+th {
+    padding: .7em;
+    margin: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    background-color: #EEE;
+}
+
+.contatoImg{
+    width: 2%;
+    height: 2%
+}
+
+.logo{
+    width: 30%;
+    height: 30%;
+    
+}
+.sidebar-header{
+    text-align: center;
+}
+
+.marca{
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    font-size: 1.6em;
+}
+.h7{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color:#16582a;
+    text-align: center;
+}
+
+.form2 {
+    width: 600px;
+    height: auto;
+    box-shadow: 10px 10px 10px rgba(173, 18, 166, 0.295);
+    margin: 4rem auto;
+    padding: 5rem;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.label2 {
+    display: block;
+    margin: 1rem 0;
+    font-size: 15px;
+}
+
+.input-p{
+    width: 300px;
+    margin: 1rem 0;
+}
+
+.botao2 {
+    font-family: 'Sanchez', serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 45%;
+    text-align: center;   
+}
+
+.listaform{
+    font-family: 'Sanchez', serif;
+    font-size: 18px;
+    padding-bottom: 20px;  
+}
+
+.legenda{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    text-align: left;
+}
+
+.horario{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.estado{
+    font-size: 20px;
+}
+
+.info{
+    font-size: 20px;
+}
